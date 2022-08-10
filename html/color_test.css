@@ -17,13 +17,13 @@ p{
 .item2 { 
     grid-row:3/4;
     grid-column: 1/5;
-    background-color: rgb(117, 117, 237);
+    background-color: rgb(255, 132, 0);
     text-align: center;
 }
 
 .item3 { 
     grid-row:4/5;
     grid-column: 1/5;
-    background-color: #FF7575;
+    background-color: hsl(0, 0%, 76%);
     text-align: center;
 }
