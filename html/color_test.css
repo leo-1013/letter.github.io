@@ -2,7 +2,8 @@
     display: grid;
     outline: black;
     grid-template-rows: 1fr 1fr 1fr 1fr; 
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;  
 }
 p{
     font-size: 20px;
@@ -16,6 +17,7 @@ p{
 .item2 { 
     grid-row:3/4;
     grid-column: 1/5;
+    background-color: rgb(117, 117, 237);
     text-align: center;
 }
 
